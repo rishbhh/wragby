@@ -628,7 +628,7 @@ ul {
 }
 
 ul.simple-list {
-  list-style: disc;
+  list-style: none;
   margin-left: 15px;
 }
 
@@ -5267,6 +5267,12 @@ color: #666666;
   box-shadow: 10px 10px 30px rgba(102, 102, 102, 0.12);
   border-radius: 20px;
 }
+.boxes .border-box2:hover{
+  background: #FFFFFF;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  box-shadow: 10px 10px 30px rgba(102, 102, 102, 0.12);
+  border-radius: 20px;
+}
 .border-box{
   text-align: left;
   border: 1px solid #efefef;
@@ -5280,6 +5286,11 @@ color: #666666;
   font-size: 17px;
   letter-spacing: 1px;
   font-weight: 700;
+  color: #fff;
+}
+.border-box p{
+  color: #fff;
+  letter-spacing: 1px;
 }
 .border-box p span{
   color: #E30B25;
@@ -5290,6 +5301,47 @@ color: #666666;
 }
 .boxes-img img{
 width: 90px;
+}
+.border-box2{
+  text-align: left;
+  border: 1px solid #efefef;
+  border-radius: 20px;
+  background-size: cover;
+  transition: 0.3s all ease-in-out;
+  height: 90%;
+}
+.border-box2 h5{
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.border-box2 p{
+  letter-spacing: 1px;
+}
+.left-align {
+  text-align: left;
+}
+.left-align h5{
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.border-box2 ul li {
+  padding: 10px 0px;
+  padding-left: 20px;
+  position: relative;
+}
+.border-box2 ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 8px;
+  height: 8px;
+  background-color: #234BA7;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
 }
 /* ==========================================================================
   13. PRICING
