@@ -5261,12 +5261,12 @@ color: #666666;
   outline: none;
   text-decoration: none;
 }
-.boxes .border-box:hover{
+/* .boxes .border-box:hover{
   background: #FFFFFF;
   border: 1px solid rgba(196, 196, 196, 0.5);
   box-shadow: 10px 10px 30px rgba(102, 102, 102, 0.12);
   border-radius: 20px;
-}
+} */
 .boxes .border-box2:hover{
   background: #FFFFFF;
   border: 1px solid rgba(196, 196, 196, 0.5);
@@ -5343,6 +5343,92 @@ width: 90px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
 }
+.left-align ul li {
+  padding: 10px 0px;
+  padding-left: 20px;
+  position: relative;
+}
+.left-align ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 8px;
+  height: 8px;
+  background-color: #234BA7;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.why-wb .border-box2{
+text-align: center;
+border: 1px solid rgba(196, 196, 196, 0.5);
+box-shadow: 10px 10px 30px rgba(102, 102, 102, 0.12);
+}
+.why-wb .border-box2 img{
+margin-bottom: 30px;
+}
+
+#why .why-w .why-w-img {
+  overflow: hidden;
+  text-align: center;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+.why-w:hover img{
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+.why-w h5 {
+  color: #112048;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-right: 20px;
+  line-height: 30px;
+}
+.why-w ul li {
+    padding: 10px 0px;
+    padding-left: 20px;
+    position: relative;
+}
+.why-w ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 8px;
+  height: 8px;
+  background-color: #234BA7;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.boxes ul li {
+  padding: 10px 0px;
+  padding-left: 20px;
+  position: relative;
+  color: #fff;
+}
+.boxes ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
 /* ==========================================================================
   13. PRICING
   =========================================================================== */
@@ -5368,6 +5454,7 @@ width: 90px;
 
 .pricing-2-table {
   padding: 35px 40px 40px;
+  text-align: center;
 }
 
 .pricing-3-table {
@@ -5390,7 +5477,11 @@ width: 90px;
   padding-bottom: 20px;
   margin-bottom: 25px;
 }
-
+.pricing-plan-title h5{
+  color: #112048;
+  font-weight: 600;
+  font-size: 1.3em;
+}
 .pricing-plan-title h6 {
   position: absolute;
   right: -3px;
@@ -5439,10 +5530,11 @@ width: 90px;
 }
 
 .pricing-plan sup {
-  font-size: 2.25rem;
-  font-weight: 500;
-  top: -7px;
+  font-size: 1.55rem;
+  font-weight: 700;
+  top: 4px;
   right: 3px;
+  color: #E30B25;
 }
 
 .rtl-direction .pricing-plan sup {
@@ -6431,7 +6523,7 @@ p.post-tag {
 font-style: normal;
 font-weight: 700;
 font-size: 17px;
-line-height: 48px;
+line-height: 0px;
 /* or 200% */
 
 text-align: center;
