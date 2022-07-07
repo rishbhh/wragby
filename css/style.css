@@ -3935,7 +3935,7 @@ p.terms-txt a,
 /*------------------------------------------*/
 
 .fbox-txt {
-  width: 82%;
+  width: 100%;
   display: inline-block!important;
   margin-left: 0;
 }
@@ -5343,6 +5343,13 @@ width: 90px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
 }
+
+.border-box2 .ew li{
+  color: #6c757d;
+}
+.border-box2 .ew li::before{
+  background-color: #234BA7;
+}
 .left-align ul li {
   padding: 10px 0px;
   padding-left: 20px;
@@ -5466,7 +5473,12 @@ margin-bottom: 30px;
 .rtl-direction .pricing-3-table {
   text-align: right;
 }
-
+.core .fbox-txt {
+  display:block !important ;
+}
+.core .fbox-ico{
+  margin-right: 10px;
+}
 /*------------------------------------------*/
 /*  Pricing Table Title
 /*------------------------------------------*/
@@ -6644,7 +6656,9 @@ h5.posts-category {
   padding: 0 4%;
   margin-bottom: 35px;
 }
-
+.single-post-title h1{
+  color: #E30B25;
+}
 .single-post-title h3,
 .single-post-title h2 {
   padding-right: 5%;
@@ -6712,6 +6726,9 @@ h5.posts-category {
 .single-post-txt h5 {
   margin-top: 25px;
   margin-bottom: 28px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .single-post-txt span.txt-600 {
@@ -7077,7 +7094,16 @@ h5.posts-category {
   margin-bottom: 25px;
   padding-left: 10px;
 }
-
+.contact-p li::before{
+display: none;
+}
+.contact-p li {
+  padding: 0 !important;
+  margin-bottom: 20px;
+}
+.contact-p li h5 {
+  margin-bottom: 8px;
+}
 /*------------------------------------------*/
 /*  CONTACT FORM INPUT
 /*------------------------------------------*/
