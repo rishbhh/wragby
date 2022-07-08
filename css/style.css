@@ -3936,8 +3936,8 @@ p.terms-txt a,
 
 .fbox-txt {
   width: 100%;
-  display: inline-block!important;
-  margin-left: 0;
+  /* display: inline-block!important; */
+  margin-left: 10px;
 }
 
 /*------------------------------------------*/
@@ -5302,6 +5302,24 @@ color: #666666;
 .boxes-img img{
 width: 90px;
 }
+.boxes ul li {
+  padding: 10px 0px;
+  padding-left: 20px;
+  position: relative;
+  color: #fff;
+}
+.boxes ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
 .border-box2{
   text-align: left;
   border: 1px solid #efefef;
@@ -5330,7 +5348,9 @@ width: 90px;
   padding: 10px 0px;
   padding-left: 20px;
   position: relative;
+  color: #151515;
 }
+
 .border-box2 ul li::before {
   content: "";
   position: absolute;
@@ -5354,6 +5374,7 @@ width: 90px;
   padding: 10px 0px;
   padding-left: 20px;
   position: relative;
+  color: #151515;
 }
 .left-align ul li::before {
   content: "";
@@ -5418,24 +5439,7 @@ margin-bottom: 30px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
 }
-.boxes ul li {
-  padding: 10px 0px;
-  padding-left: 20px;
-  position: relative;
-  color: #fff;
-}
-.boxes ul li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 40%;
-  width: 8px;
-  height: 8px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-}
+
 /* ==========================================================================
   13. PRICING
   =========================================================================== */
