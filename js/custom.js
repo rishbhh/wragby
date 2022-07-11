@@ -16,7 +16,9 @@
 			preloader.delay(400).fadeOut('slow');
 				
 	});
-
+	$(function(){
+		$('#datepicker').datepicker();
+	  });
 
 	$(window).on('scroll', function() {
 		

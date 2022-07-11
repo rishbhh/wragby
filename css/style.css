@@ -7061,21 +7061,35 @@ h5.posts-category {
 }
 
 
-
-
 /* ==========================================================================
   23. CONTACTS
   =========================================================================== */
-
+.carre p{
+  padding: 0 30px;
+}
+.career-b img{
+  width: 80px;
+  margin-bottom: 20px;
+}
 #contacts-1 .section-title {
   position: relative;
   z-index: 3;
+}
+.map-div{
+  width: 100%;
+  height: 90vh;
+}
+.map-div iframe
+{
+  filter: grayscale(1);
 }
 .form-div{
   padding: 4% 3%;
   margin: 4% 0;
   box-shadow: 10px 10px 50px rgb(102 102 102 / 22%);
   border-radius: 10px;
+  margin-bottom: -26px;
+  background: #fff;
 }
 .form-div .form-control{
   background: #F9F9F9;
@@ -7084,6 +7098,7 @@ h5.posts-category {
   height: 50px;
   border: none;
   margin-bottom: 40px;
+  padding-left: 60px;
 }
 .form-div .form-group{
   position: relative;
@@ -7100,18 +7115,52 @@ h5.posts-category {
   
   color: #112048;
 }
+
 .form-div .form-group .input-group-addon{
-position: absolute;
+  position: absolute;
+  top: 58%;
+  left: 14px;
+  z-index: 1;
+  border-right: 1px solid #ddd;
+  padding-right: 7px;
+
+}
+.form-div .msg .input-group-addon{
+  top: 26%;
+  }
+  .form-div .input-group-addon img{
+    /* width: 20px; */
+  }
+.form-div .form-group .input-group-addon span{
+  vertical-align: text-bottom;
 }
 .form-div .form-group textarea{
 height: 150px;
+}
+.sub-bt{
+  text-align: center;
+  margin-top: 20px;
+}
+.submit-re{
+  background: #E30B25;
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 33px;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 9px 30px;
+  color: #FFFFFF
 }
 .selectBox {
   background: #F9F9F9;
   box-shadow: 5px 5px 10px rgb(34 34 34 / 22%);
   border-radius: 6px;
   position: relative;
-  padding: 12px 24px;
+  padding: 12px 50px;
   cursor: pointer;
   margin-bottom: 40px;
 }
@@ -7157,6 +7206,106 @@ height: 150px;
 }
 
 
+
+
+
+
+
+
+.career-div{
+  padding: 4% 3%;
+  margin: 4% 0;
+  box-shadow: 10px 10px 50px rgb(102 102 102 / 22%);
+  border-radius: 10px;
+  background: #fff;
+}
+.career-div .form-control{
+  background: #F9F9F9;
+  border-radius: 6px;
+  height: 50px;
+  border: none;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+.career-div .form-group{
+  position: relative;
+}
+.career-div .form-group label{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 48px;
+  /* identical to box height, or 267% */
+  
+  letter-spacing: 0.05em;
+  
+  color: #112048;
+}
+.career-div ul li{
+  position: relative;
+}
+.career-div ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+.career-div .form-group ul{
+  display: flex;
+}
+.career-div .form-group ul li label{
+  display: block;
+  position: relative;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 17px 19px 21px 49px;
+  margin: 10px auto;
+  height: 0px;
+  z-index: 9;
+  line-height: inherit;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+
+.career-div ul li .check{
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  top: 30px;
+  left: 20px;
+	z-index: 5;
+	transition: border .25s linear;
+	-webkit-transition: border .25s linear;
+}
+
+.career-div ul li .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 11px;
+  width: 11px;
+  top: 0.1px;
+  left: 1.1px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 3px solid #112048;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #112048;
+}
+
+input[type=radio]:checked ~ label{
+  color: #112048;
+}
 /*  */
 
 .services-div{
