@@ -7207,10 +7207,49 @@ height: 150px;
 
 
 
+.modal-body .form-div{
+  box-shadow: none;
+}
 
-
-
-
+.modal-body .form-div .form-control{
+  box-shadow: none;
+  padding-left: 18px;
+  background: transparent;
+  border-bottom: 1px solid #dbdbdb !important;
+  border: none;
+  border-radius: 0;
+}
+.modal-body .form-div .selectBox{
+  box-shadow: none;
+  padding-left: 18px;
+  background: transparent;
+  border-bottom: 1px solid #dbdbdb !important;
+  border: none;
+  border-radius: 0;
+}
+#largeModal .modal-lg .modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: end;
+  padding: 0.7rem 1rem;
+  border-bottom: none;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+.modal-body .form-div .main-head {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #112048;
+}
+#largeModal .modal-lg{
+  max-width: 1200px;
+}
 
 .career-div{
   padding: 4% 3%;
