@@ -229,7 +229,7 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/SZEflIVnhH8'				
+							src: 'https://www.youtube.com/embed/qAK9-TOy-DU'				
 								}
 							}
 						}		  		  
@@ -246,7 +246,7 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/7e90gBu4pas'				
+							src: 'https://www.youtube.com/embed/qAK9-TOy-DU'				
 								}
 							}
 						}		  		  
@@ -263,7 +263,7 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/0gv7OC9L2s8'					
+							src: 'https://www.youtube.com/embed/qAK9-TOy-DU'					
 								}
 							}
 						}		  		  
@@ -297,7 +297,7 @@
 			owl.owlCarousel({
 				items: 3,
 				loop:true,
-				autoplay:true,
+				autoplay:false,
 				navBy: 1,
 				nav:true,
 				dots:false,

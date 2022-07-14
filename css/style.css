@@ -50,7 +50,7 @@ body {
 /*------------------------------------------*/
 /*  Margin Top
 /*------------------------------------------*/
-
+.mt-130 { margin-top: 130px; }
 .mt-100 { margin-top: 100px; }
 .mt-95 { margin-top: 95px; }
 .mt-90 { margin-top: 90px; }
@@ -4004,11 +4004,14 @@ p.terms-txt a,
   left: -10px;
   transform: rotate(-30deg);
 }
-
+.fbox-4{
+  display: flex;
+  align-items: center;
+}
 .fbox-ico {   
   width: 18%;
-  display: inline-block!important;  
-  float: left;
+  /* display: inline-block!important;  
+  float: left; */
   margin-top: 4px;
   text-align: left;
 }
@@ -4870,7 +4873,9 @@ h2.statistic-number {
   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
 }
-
+.rel {
+  background-attachment: scroll !important;
+}
 /*------------------------------------------*/
 /*  Testimonial Message Text
 /*------------------------------------------*/
@@ -4938,7 +4943,7 @@ h2.statistic-number {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 7% 0;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .reviews-1-wrapper{
   margin-top: -125px;
