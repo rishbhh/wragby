@@ -4382,7 +4382,7 @@
   .contact-form textarea { min-height: 170px; }
 
   /* Footer */
-  .footer { padding-top: 80px; padding-bottom: 30px; }
+  .footer { padding-top: 80px; padding-bottom: 30px; text-align: center;}
   #footer-1 .col-sm-6, #footer-2 .col-sm-6, #footer-3 .col-sm-4, #footer-4 .col-sm-6 { width: 50%; float: left; }
   .rtl-direction #footer-3 .col-sm-4.pl-50 { width: 50%; margin-left: 48%; }
 
