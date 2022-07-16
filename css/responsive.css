@@ -1519,7 +1519,7 @@
 
 @media (max-width: 767px) { 
 
-/* HERO-1 */
+/* Hitesh-code */
   .hero-1-txt h1 {
   font-size: 40px;
   line-height: 60px;
@@ -1557,7 +1557,46 @@
   .testi{
     padding: 15% 0;
   }
+.text-box{
+  text-align: center;
+  padding: 0px 20px;
+  margin-bottom: 70px;
+}
+/* rishabh */
+#cta-5{
+  text-align: center;
+}
+.cta-5-txt .cta-m{
+  margin-bottom: 37px;
+}
+.form-div .form-group label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #112048;
+  margin-bottom: 12px;
+}
+#banner{
+  padding-top:60px ;
+}
+#banner h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
 
+#banner .hero-1-img{
+  text-align: center;
+  margin-top: 20px;
+}
+#banner .hero-1-img img{
+  width: 100%;
+}
+.career-b{
+  margin-bottom: 50px;
+}
   .owl-theme .owl-nav{
     width: 100%;
     left: 0%;
@@ -1919,7 +1958,7 @@
   .fbox-7 { text-align: center; padding: 45px 60px; } 
   .fbox-7.mt-40 { margin-top: 0; }
 
-  .fbox-txt { width: 100%; text-align: center; padding: 0; margin-top: 20px; }
+  .fbox-txt { width: 100%; text-align: left; padding: 0; margin-top: 0; }
   .rtl-direction .fbox-txt { width: 83%; text-align: right; padding: 0; margin-top: 0; }
   .fbox-ico { text-align: center; float: none; margin-top: 0; }
   .rtl-direction .fbox-ico { width: 17%; margin-top: 8px; }
@@ -4076,7 +4115,9 @@
   /*------------------------------------------*/
   /*  CONTENT
   /*------------------------------------------*/ 
-
+  .border-box {
+    height: 100%;
+}
   /* About */
   #about-2 { margin-bottom: 100px; }
   #about-1 .txt-block { padding: 0; }
@@ -4089,7 +4130,7 @@
   .fbox-1 { padding: 0 8%; }
   .fbox-2 { padding: 0 5%; }
   .fbox-3, .fbox-4 { padding: 0 5%; } 
-  .fbox-5 { padding: 0 12%; }
+  .fbox-5 { padding: 36px 12% }
   .fbox-5.bg-white { padding: 40px 10%; margin: 10px 3% 60px; }
   .fbox-6 { padding: 45px 10%; margin-left: 3%; margin-right: 3%; }
   .fbox-6 h5 { padding: 0 3%; }
@@ -4105,7 +4146,7 @@
   /* Content */
   .content-5.division { padding-left: 0; padding-right: 0; }
   .content-5 { padding-top: 80px; padding-bottom: 40px; }
-  .content-5-wrapper { padding: 0; }
+  .content-5-wrapper { padding: 16px; }
   .content-5.content-section .txt-block.left-column { padding: 0; }
   .content-5.content-section .txt-block.right-column { padding: 0; }
 
