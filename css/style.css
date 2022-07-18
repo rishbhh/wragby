@@ -5076,6 +5076,13 @@ bottom: 0;
 .scribe-div {
 margin-bottom: 7%;
 }
+
+.scribe-div>div{
+  align-items: center;
+} 
+.scribe-div>div>div{
+  margin-bottom: 0;
+}
 .scribe-div hr{
   margin-top: 70px !important;
 }
