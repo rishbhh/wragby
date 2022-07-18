@@ -14,9 +14,30 @@
   }
 }
 
-
+@media (max-width: 1280){
+  
+}
 
 @media (min-width: 992px) and (max-width: 1199.95px) {
+
+  .hero-1-txt h1 {
+    font-size: 50px;
+    line-height: 65px;
+    }
+  
+    .hero-1-txt p{
+    font-size: 28px;
+    font-weight: 500; 
+    margin-bottom: 30px;
+    }
+
+    .img-fluid{
+      width: 90%;
+    }
+
+    .serics {
+      height: 58vh;
+  }
 
   .pb-200 { padding-bottom: 180px; }
   .pb-190 { padding-bottom: 170px; }
@@ -215,8 +236,8 @@
   .wsmenu > .wsmenu-list > li > .wsmegamenu.w-75 { width: 90%!important; left: 8%; }
   .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { width: 42%; }
 
-  .wsmenu > .wsmenu-list > li > a { font-size: 16px; margin: 0 3px; padding: 10px 15px; }
-  .wsmenu > .wsmenu-list > li a.btn { font-size: 16px; line-height: 30px; margin-top: 14px; padding: 4px 23px; }
+  .wsmenu > .wsmenu-list > li > a { font-size: 16px; margin: 0 3px; padding: 10px 9.5px; }
+  .wsmenu > .wsmenu-list > li a.btn { font-size: 12px; line-height: 30px; margin-top: 14px; padding: 4px 23px; }
   .wsmenu > .wsmenu-list > li a.header-store { margin: 10px 0 0 12px; }
 
   .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a, .wsmenu > .wsmenu-list > li > .wsmegamenu .link-list li a,
@@ -232,7 +253,7 @@
 
   /* Hero-1 */
   #hero-1 { padding-top: 130px; padding-bottom: 100px; }
-  .hero-1-txt { padding-left: 20px; }
+  .hero-1-txt { padding-left: 20px; } 
   .hero-1-txt h2 { margin-bottom: 25px; }
   .hero-1-txt p.p-xl { font-size: 1.175rem; padding-right: 0; margin-bottom: 35px; }
 
@@ -438,7 +459,7 @@
 
   .review-1-txt .author-data, .review-2-txt .author-data { margin-left: -15px; }
 
-  .review-avatar img, .owl-item .review-avatar img, .review-2 .review-avatar img, .review-3-avatar img { width: 50px; height: 50px; }
+  /* .review-avatar img, .owl-item .review-avatar img, .review-2 .review-avatar img, .review-3-avatar img { width: 100px; height: 100px; } */
   .review-3-avatar { width: 17%; text-align: left; }
   .review-3-txt { width: 83%; }
   .review-author { padding: 0 0 0 10px; } 
