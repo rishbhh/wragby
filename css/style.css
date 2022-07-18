@@ -5321,6 +5321,7 @@ width: 90px;
   position: relative;
   color: #fff;
 }
+
 .boxes ul li::before {
   content: "";
   position: absolute;
@@ -5389,6 +5390,15 @@ width: 90px;
   position: relative;
   color: #151515;
 }
+
+.list-color-wht>li{
+  color: #fff !important;
+}
+
+.list-color-wht li::before{
+  background-color: #fff !important;
+}
+
 .left-align ul li::before {
   content: "";
   position: absolute;
