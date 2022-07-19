@@ -637,6 +637,9 @@
 
 }
 
+.top-ft {
+  text-align: left;
+}
 
 
 
@@ -650,10 +653,66 @@
     text-align: center;
   }
 
-  /* .hero-1-img img{
+  .serics {
+    height: 40vh;
+  }
+
+  .services-con p {
+    line-height: 2;
+    margin-bottom: 5%;
+  }
+
+  .img-fluid{
     text-align: center;
-  } */
-  
+    width: 80%;
+  }
+
+  p.p-sm{
+    font-size: 1.1rem;
+  }
+
+  .content-2{
+    text-align: center;
+  }
+
+  .services-div{
+    margin: 0;
+  }
+
+  .owl-item .review-avatar img{
+    width: 40%;
+  }
+
+  .testi .title-01 {
+    text-align: center;
+  }
+
+  .owl-nav{
+    width: 100%;
+    left: 0;
+  }
+
+  .scribe-div>div {
+    margin-top: 120px;
+    text-align: center;
+  }
+
+  .scribe-div>div>div{
+    margin-bottom: 20px;
+  }
+
+  .subscribe_form{
+    margin: 0% 15%;
+    text-align: center;
+  }
+
+  .f-main{
+    justify-content: center;  
+  }
+
+  .f-main-2{
+    text-align: center;
+  }
 
   .wow { animation-name: none!important; visibility: visible !important; }
 
@@ -740,7 +799,7 @@
   h3.h3-xl { font-size: 2.25rem; } 
 
   /* Header H2 */
-  h2.h2-xs { font-size: 2.35rem; }
+  h2.h2-xs { margin-top: 25px; font-size: 2.35rem; }
   h2.h2-sm { font-size: 2.45rem; } 
   h2.h2-md { font-size: 2.55rem; }  
   h2.h2-lg { font-size: 2.65rem; } 
@@ -753,10 +812,10 @@
   h2.h2-title-xl { font-size: 4rem; }
 
   /* Paragraphs */
-  p { font-size: 0.95rem; }  
+  p      { font-size: 1.1rem; }  
   p.p-md { font-size: 1rem; }   
   p.p-lg { font-size: 1.05rem; }  
-  p.p-xl { font-size: 1.05rem; }
+  p.p-xl { font-size: 1.1rem; }
 
   p.p-title-xs { font-size: 1.1rem; } 
   p.p-title-sm { font-size: 1.125rem; }  
@@ -888,7 +947,7 @@
   .tabs-section .txt-block.left-column, 
   .content-section .txt-block.left-column { padding-left: 0; padding-right: 0; margin-bottom: 40px; }
   .tabs-section .txt-block.right-column,
-  .content-section .txt-block.right-column { padding-left: 0; padding-right: 0; margin-bottom: 40px; }
+  .content-section .txt-block.right-column { padding: 30px; margin-bottom: 0px; }
   .content-5.content-section .txt-block.left-column {padding-left: 0; }
   .content-5.content-section .txt-block.right-column { padding-right: 0; }
   .tabs-section .img-block.left-column, .content-section .img-block.left-column { padding-left: 0; padding-right: 10px; }
@@ -1027,10 +1086,10 @@
 
   /* Hero-1 */
   #hero-1 { padding-top: 70px; padding-bottom: 30px; }
-  .hero-1-txt { margin-right: -30px; }
+  .hero-1-txt { margin-right: 0x; }
   .hero-1-txt h2 { margin-bottom: 25px; }
   .hero-1-txt p.p-xl { font-size: 1.15rem; padding-right: 0; margin-bottom: 35px; }
-  .hero-1-img { margin-right: -60%; padding-left: 10px; margin-bottom: -40px; }
+  .hero-1-img { margin-right: 0%; padding-left: 0px; margin-bottom: 0px;  text-align: center;}
 
   /* Hero-2 */
   #hero-2 { padding-top: 80px; margin-bottom: 50px; }
@@ -1222,7 +1281,7 @@
 
   .fbox-txt { width: 100%; text-align: center; padding: 0; margin-top: 20px; }
   .rtl-direction .fbox-txt { width: 100%; text-align: right; padding: 0; margin-top: 10px; }
-  .fbox-ico { text-align: center; width: 100%; float: none; margin-top: 0; }
+  .fbox-ico { text-align: center; width: 15%; float: none; margin-top: 0; }
   .fbox-img { margin-left: 8%; margin-right: 8%; padding: 40px 10% 45px; }
 
   /* Content */
@@ -1264,7 +1323,7 @@
 
   .content-10-btn { margin-top: 50px; }
 
-  .content-section .img-block.left-column, .content-4-img.left-column { margin-left: -55%; }
+  .content-section .img-block.left-column, .content-4-img.left-column { margin-left: 0%; }
   .content-section .img-block.right-column, .content-4-img.right-column { margin-right: -55%; }
 
   .content-4-img { margin-top: -60px; }
@@ -1396,7 +1455,7 @@
   .cta-1-wrapper { text-align: center;  padding: 50px 15%; }
   .cta-3-wrapper { text-align: center; padding: 40px 15%; }
   .cta-4-wrapper { text-align: center; padding: 40px 8%; }
-  .cta-5-wrapper { padding: 50px 50px; }
+  .cta-5-wrapper { padding: 50px 50px; display: block;}
   .cta-7-wrapper { text-align: center; padding: 40px 10%; margin: 0; }
   .cta-11-wrapper { text-align: center; padding: 70px 60px; }
 
@@ -1476,7 +1535,7 @@
   .footer { padding-top: 80px; }
   .footer-info { margin-bottom: 50px; }
   img.footer-logo { max-height: 38px; }
-  .footer-info p { padding-right: 10%; }
+  .footer-info p { padding: 0 0px;}
   #footer-1 .footer-links { padding-left: 0; }
   .rtl-direction .footer-links { padding-right: 0; }
 
