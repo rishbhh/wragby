@@ -649,6 +649,20 @@
 
 @media (min-width: 768px) and (max-width: 991.95px) { 
  
+  .main-head{
+    margin-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  #banner{
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .container{
+    text-align: center;
+  }
+
   .hero-1-txt{
     text-align: center;
   }
@@ -1274,7 +1288,7 @@
   .fbox-3 { padding: 0 5%; }
   .fbox-4 { padding: 0 4%; align-items: flex-start; }
   .rtl-direction .fbox-4 { padding: 0; }
-  .fbox-5 { padding: 35px 20px; }
+  /* .fbox-5 { padding: 35px 20px; } */
   .fbox-6 { text-align: center; padding: 35px 15px; }
   .rtl-direction .fbox-6 { text-align: right; padding: 35px 20px; }
   #fb-6-2 { margin-bottom: 16px; } 
