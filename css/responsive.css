@@ -1089,7 +1089,7 @@
   .hero-1-txt { margin-right: 0x; }
   .hero-1-txt h2 { margin-bottom: 25px; }
   .hero-1-txt p.p-xl { font-size: 1.15rem; padding-right: 0; margin-bottom: 35px; }
-  .hero-1-img { margin-right: 0%; padding-left: 0px; margin-bottom: 0px;  text-align: center;}
+  .hero-1-img { margin-right: 0%; padding-left: 0px; margin-bottom: 0px;  text-align: center; margin-left: 0;}
 
   /* Hero-2 */
   #hero-2 { padding-top: 80px; margin-bottom: 50px; }
@@ -1268,7 +1268,7 @@
   .rtl-direction #features-7 .txt-block p { padding: 0;  }
   .fbox-1 { padding: 0 10%; }
   .fbox-3 { padding: 0 5%; }
-  .fbox-4 { padding: 0 4%; }
+  .fbox-4 { padding: 0 4%; align-items: flex-start; }
   .rtl-direction .fbox-4 { padding: 0; }
   .fbox-5 { padding: 35px 20px; }
   .fbox-6 { text-align: center; padding: 35px 15px; }
@@ -1279,9 +1279,9 @@
   .fbox-7.mt-40 { margin-top: 0; }
   #fb-7-1, #fb-7-2, #fb-7-3, #fb-7-4 { margin-bottom: 30px; }
 
-  .fbox-txt { width: 100%; text-align: center; padding: 0; margin-top: 20px; }
+  .fbox-txt { width: 100%; text-align: left; padding: 0; margin-top: 20px; }
   .rtl-direction .fbox-txt { width: 100%; text-align: right; padding: 0; margin-top: 10px; }
-  .fbox-ico { text-align: center; width: 15%; float: none; margin-top: 0; }
+  .fbox-ico { text-align: center; width: 15%; float: none; margin-top: 30px; }
   .fbox-img { margin-left: 8%; margin-right: 8%; padding: 40px 10% 45px; }
 
   /* Content */
