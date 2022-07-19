@@ -714,6 +714,10 @@
     text-align: center;
   }
 
+  .border-box {
+    height: auto;
+  }
+
   .wow { animation-name: none!important; visibility: visible !important; }
 
   /*------------------------------------------*/
@@ -1486,7 +1490,7 @@
   .newsletter-section .btn { height: 50px; }
 
   /* Blog */
-  #bp-1-3, #bp-2-3 { display: none; }
+  #bp-1-3, #bp-2-3 { display: block; }
   #blog-page .masonry-image { width: 50%; padding: 0 8px; }
 
   .blog-1-post .blog-post-txt { margin-top: 30px; padding-left: 10px; padding-right: 0; }
@@ -1532,7 +1536,7 @@
   #contacts-2 .contact-form span { font-size: 16px; }
 
   /* Footer */
-  .footer { padding-top: 80px; }
+  .footer { padding-top: 80px;  text-align: center; }
   .footer-info { margin-bottom: 50px; }
   img.footer-logo { max-height: 38px; }
   .footer-info p { padding: 0 0px;}
